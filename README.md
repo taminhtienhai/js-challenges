@@ -6,6 +6,21 @@
 **Node Version**: >=18  
 **Package Manager**: Yarn/NPM  
 
+## Cài đặt
+
+Clone repo bằng lệnh sau
+
+```bash
+git clone https://github.com/taminhtienhai/js-challenges
+cd ./js-challenges
+```
+
+Khi repo được cập nhật, chạy lệnh sau để thấy được các thử thách mới
+
+```bash
+git pull --rebase
+```
+
 ## Thử thách
 
 Giả sử ta có thử thách sau
