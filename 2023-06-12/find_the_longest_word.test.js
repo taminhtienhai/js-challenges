@@ -14,6 +14,6 @@ function longest(word) {
 test("Test Cases", (t) => {
     assert.equal(longest("lorem is sum"), 'lorem');
     assert.equal(longest("The HTTP interfaces in Node.js are designed to support many features of the protocol which have been traditionally difficult to use"), 'traditionally');
-    assert.equal(longest("In particular, large, possibly chunk-encoded, messages"), 'chunk-encoded');
+    assert.equal(longest("In particular large possibly chunk-encoded messages"), 'chunk-encoded');
     assert.equal(longest("HTTP message headers are represented by an object like this"), 'represented');
 });

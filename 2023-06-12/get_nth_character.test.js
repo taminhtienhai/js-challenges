@@ -9,12 +9,13 @@ const assert = require('node:assert');
  * @param {number} pos
  * @returns {string}
  */
-function getCharacterAt(char, pos) {
+function getCharacterNth(char, pos) {
     /// write your own implementation
 }
 
 test("Test Cases", (t) => {
-    assert.equal(getCharacterAt('abcd', 1), 'a');
-    assert.equal(getCharacterAt('zyxbwpl', 5), 'w');
-    assert.equal(getCharacterAt('gfedcba', 3), 'e');
+    assert.strictEqual(getCharacterNth('abcd', 1), 'a');
+    assert.strictEqual(getCharacterNth('zyxbwpl', 5), 'w');
+    assert.strictEqual(getCharacterNth('gfedcba', 3), 'e');
+    assert.strictEqual(getCharacterNth('lksfjab', 7), 'b');
 });

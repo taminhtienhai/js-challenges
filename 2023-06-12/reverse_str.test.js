@@ -13,8 +13,8 @@ function reserveStr(str) {
 }
 
 test("Test Cases", (t) => {
-    assert.equal(reserveStr("aab"), "aab");
-    assert.equal(reserveStr("sssssssad"), "dasssssss");
-    assert.equal(reserveStr("stikareved"), "deverakits");
+    assert.strictEqual(reserveStr("aab"), "baa");
+    assert.strictEqual(reserveStr("sssssssad"), "dasssssss");
+    assert.strictEqual(reserveStr("stikareved"), "deverakits");
 });
 
